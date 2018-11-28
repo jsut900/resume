@@ -1,0 +1,68 @@
+.container-1{
+    display:flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-2{
+    display:flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-3{
+    display:flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}   
+.container-4{
+    display:flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.container-1 div, .container-2 div, .container-3 div, .container-4 div{
+    border:.5px rgb(7, 7, 7) solid;
+    padding:10px;
+}
+    .name{
+    flex:1;
+    order:1;
+    }
+    .email{
+    flex:1.4;
+    order:2;
+    }
+    .pic{
+    flex:.7;
+    order:3;
+    }
+    .education-head{
+    flex:-1;
+    order:4;   
+    }
+    .education-body{
+    flex:5;
+    order:5;
+    }
+    .education-right{
+    flex:1;
+    order:6;
+    }
+    .experience-head{
+    flex:-1;
+    order:7;  
+    }
+    .experience-body{
+    flex:5;
+    order:8;
+    }
+    .experience-right{
+    flex:1;
+    order:9;
+    }
+    .skills-head{
+    flex:.5;
+    order:10;    
+    }  
+    .skills-production{
+    flex:1;
+    order:11;    
+    } 
+    .skills-interests{
+    flex:1;
+    order:12;    
+    }
